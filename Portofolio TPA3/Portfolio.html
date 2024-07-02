@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#home"></a>
+            <a href="#skills"></a>
+            <a href="#projects"></a>
+            <a href="#contact"></a>
+        </nav>
+    </header>
+    <main>
+        <section id="skills">
+         <h2>Abilități</h2>
+         <p>Sunt graphic designer cu experiență de 2 ani. Mă specializez în special în crearea de bannere pentru marketing online (web, newsletter marketing, Social media)</p> 
+         <h3> Aici o listă a abilităților mele hard:</h3>
+           <ul>
+            <li>Figma</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>HTML/CSS</li>
+           </ul>
+        </section>
+        <section id="Projects">
+            <h2>Proiecte</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, repellat est perferendis aperiam dolore amet sint consequuntur officiis modi iure.</p>
+            <h3> Aici găsiți unele dintre proiecte:</h3>
+            <table>
+                <thead>
+                    <th>Receta</th>
+                    <th>Tribute page</th>
+                    <th>Proiect sectret ^^</th>
+                </thead>
+                <tr>
+                    <td>
+                        <img src="Images/website3.png" alt="verde" width="200">
+                    </td>
+                    <td>
+                        <img src="Images/website4.png" alt="blue" width="200">
+                    </td>
+                    <td>
+                        <img src="Images/website5.png" alt="orange" width="200">
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="contact">
+            <h3>Contacte</h3>
+            <p>Mă puteți contacta pentru o nouă provocare.</p>
+            <p><img src="Images/person-icon.png" alt="human icon" width="35">Cuțulab Olga</p>
+            <p><img src="Images/pin-icon.png" alt="location icon" width="35">Chișinau, Moldova</p>
+            <p><img src="images/email-icon.png" alt="email icon" width="35">olga.cutulab@gmail.com</p>
+            <form>
+                <h3>Scrieți-mi un mesaj aici:</h3>
+                <input name="nume" placeholder="Numele" required>
+                <input name="telephone" type="tel" placeholder="Telefon" pattern="\d{9}" maxlength="9" required>
+                <input name="Email" placeholder="E-mail" required>
+                <br><br/>
+                <label for="motiv">Selectați motivul adresării</label>
+                <br><br/>
+                <select name="motiv" required>
+                    <option value="">--Selectați o opțiune de mai jos--</option>
+                    <option value="Interviu"> Interviu</option>
+                    <option value="Freelance project"> Freelance project</option>
+                    <option value="Job offer">Ofertă de angajare</option>
+                </select>
+                <br><br/>
+                <textarea name="mesaj" placeholder="Detalii" cols="60" rows="5"></textarea>
+                <br><br/>
+                <button>Trimite</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <hr/>
+        &copy;2024 My Portfolio. All rights reserved.
+    </footer> 
+</body>
+</html>
