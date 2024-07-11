@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <h1>Contact us</h1>
+        <section class="entireForm">
+
+            <div>
+                
+                <div class="Cont12">
+                    <div class="inputInfo">
+                        <label for="fname">First name</label>
+                        <input name="firstname" id="fname" placeholder="Your name" type="text">
+                    </div>
+                    <div class="inputInfo">
+                        <label for="Lname">Last name</label>
+                        <input type="text" name="Lastname" id="Lname" placeholder="Your last name" >
+                    </div>
+            </div>
+            
+            <div>
+                <div class="Cont12">
+                    <div class="inputInfo">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Email..." >
+                    </div>
+                    <div class="inputInfo">
+                        <label for="phone">Phone number</label>
+                        <input name="phone" id="phone" placeholder="Phone number start with +" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="inputInfo">
+                <label for="Countryselect">Country</label>
+            <div class="custom-select">
+                <select name="Country" id="Countryselect">
+                    <option value="Select">--Select country--</option>
+                    <option value="uk">United-Kingdom</option>
+                    <option value="france">France</option>
+                    <option value="germany">Germany</option>
+                </select>
+            </div>
+            </div>
+            <div class="inputInfo">
+                <label for="adress">Adress</label>
+                <input type="text" id="adress" name="Adress" placeholder="Your adress">
+            </div>
+            <div class="inputInfo">
+                <label for="subject">Subject</label>
+                <textarea name="subject" id="subject">Write about yourself</textarea>
+            </div>
+            
+            <br>
+            <div class="inputInfo" id="button">
+                <input type="submit">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
